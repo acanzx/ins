@@ -9,7 +9,6 @@ import ColorModeContext from "@/contexts/colorModeContext";
 
 import { GA } from "../GA";
 import Header from "../Header";
-import Media from "../Media";
 import themeRegister from "./theme";
 
 interface IAppProps {
@@ -48,7 +47,6 @@ export default function ThemeRegister({ children, themeMode }: IAppProps) {
             maxWidth="xl"
             className=" mt-16"
           >
-            <Media />
 
             {children}
           </Container>
